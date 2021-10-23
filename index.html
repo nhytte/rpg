@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <title>RPG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <h3 id="naglowek">RPG CREATOR </h3>
+        <div id="wybor">
+
+        <table>
+            <tr>
+                <td>Wprowadź imię:</td>
+                <td>&nbsp&nbsp&nbsp&nbsp</td>
+                <td>Wybierz frakcję:</td>
+                <td>&nbsp&nbsp&nbsp</td>
+                <td>Wybierz klasę postaci:</td>
+                <td>&nbsp&nbsp&nbsp&nbsp</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="imie" id="imie"></td>
+                <td></td>
+                <td><select name="" id="fra">
+                    <option value="Syndykat">Syndykat</option>
+                    <option value="Maruderzy">Maruderzy</option>
+                    <option value="Przymierze">Przymierze</option>
+                </select></td>
+                <td></td>
+                <td><select name="" id="kla">
+                    <option value="Berserker">Berserker</option>
+                    <option value="Łucznik">Łucznik</option>
+                    <option value="Mag ognia">Mag ognia</option>
+                    <option value="Healer">Healer</option>
+                    <option value="Tank">Tank</option>
+                </select></td>
+                <td></td>
+                <td>
+                    <input type="submit" value="Zatwierdź" onclick="rpg();"></td>
+                </tr>
+                
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td>
+                    Nazwa twojej postaci: 
+                </td>
+                <td>&nbsp&nbsp&nbsp</td>
+                <td>
+                    Frakcja:
+                </td>
+                <td>&nbsp&nbsp&nbsp</td>
+                <td>Statystyki</td>
+                <td>&nbsp&nbsp&nbsp</td>
+                <td>Ekwipunek</td>
+
+            </tr>
+            <tr>
+                <td>
+                    <div id="wynik"></div>
+                </td>
+                <td></td>
+                <td>
+                    <p id="wynik1"></p>
+                </td>
+                <td></td>
+                <td>
+                    <p id="wynik2"></p>
+                </td>
+                <td></td>
+                <td>
+                    <p id="wynik3"></p>
+                </td>
+                
+            </tr>
+        </table>
+        
+            
+        
+        
+
+        </div>
+    </div>
+    
+</body>
+</html>
+
+

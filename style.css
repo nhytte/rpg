@@ -1,0 +1,36 @@
+body{
+    background: url(img/tlo.jpg);
+    background-repeat: repeat-y;
+    background-size:cover;
+    margin: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#naglowek{
+    background: white;
+    border-color: black;
+    border-radius: 7px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0 5px 0;
+    font-size: 25px;
+}
+
+#wybor{
+    background:white;
+    border-radius: 7px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
